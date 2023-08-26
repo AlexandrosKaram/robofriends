@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card = (props) => {
-    const {name, email, id} = props;
+    const {name, email, id} = props;   // could also be done directly through the parameters
     return (
         <div className="bg-light-green tc dib br3 pa3 ma2 grow bw2 shadow-5" >
             <img src={`https://robohash.org/${id}?200x200`} alt="robot" />
